@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://doitbeforeme.com/wp-content/uploads/2023/01/lockscreen-rick-and-morty-wallpaper.webp);
+    background-image: url(../imagenes/fondo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,12 +22,17 @@ header {
 
 header div img {
     width: 200px;
+    margin: 20px;
+}
+
+nav {
+    margin: 20px;
 }
 
 nav a {
     text-decoration: none;
     font-size: 18px;
-    color: #1eb1b6;
+    color: #0eedf5;
     padding: 5px;
     margin: 10px;
 }
@@ -41,33 +46,34 @@ h1 {
     font-size: 45px;
     padding: 10px;
     margin: 20px;
-    color: #1eb1b6;
+    color: #0eedf5;
 }
 
 h2 {
 
     font-size: 25px;
-    color: #1eb1b6;
+    color: #0eedf5;
     padding: 20px;
     margin: 20px;
 }
 
 .sinopsis p {
     padding: 20px;
-    margin: 20;
+    margin: 30px;
 }
 
 .contenedor-tarjetas {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
     justify-content: center;
-    margin: 20px 20px 20px 50px;
+    margin: 40px;
 }
 
 .tarjetas {
     width: 200px;
-    background: linear-gradient(180deg, rgb(216, 90, 216), rgb(54, 59, 158), rgb(12, 17, 61));
+    background: linear-gradient(180deg, rgb(238, 97, 238), rgb(52, 56, 154), rgb(10, 15, 59));
+    border: solid magenta 1px;
     padding: 20px;
     margin: 20px;
     text-align: center;
@@ -75,7 +81,7 @@ h2 {
 }
 
 .tarjetas:hover {
-    transform: scale(1.08)
+    transform: scale(1.10)
 }
 
 .tarjetas img {
@@ -91,9 +97,9 @@ h3 {
 
 .Online {
     display: flex;
-    margin: 50px 20px;
+    margin: 90px 20px;
     padding: 10px;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
 }
 
@@ -106,13 +112,13 @@ h3 {
 
 .Online a {
     width: 130px;
-    background-color: palegoldenrod;
+    background-color: rgb(112, 45, 133);
     text-decoration: none;
     text-align: center;
     font-size: 18px;
-    color: #20a1a5;
+    color: #0eedf5;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5%;
     font-weight: bold;
 
@@ -125,11 +131,30 @@ h3 {
 .footer {
     padding: 30px;
     margin: 50px;
-    color: #1eb1b6;
+    color: #0eedf5;
     text-align: center;
 }
 
 .footer p {
 
     padding: 5px;
+}
+
+@media(max-width: 600px) {
+
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Online img {
+        width: 35%;
+    }
+
+    .Online a {
+        width: 65px;
+        font-size: 10px;
+        padding: 5px;
+        margin: 15px;
+    }
 }
