@@ -7,10 +7,11 @@
 body {
     background-image: url(../imagenes/fondo.webp);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: palegoldenrod;
+    color: rgb(240, 233, 158);
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 
 header div img {
     width: 200px;
-    margin: 20px;
+    margin: 30px;
 }
 
 nav {
@@ -53,7 +54,7 @@ h2 {
 
     font-size: 25px;
     color: #0eedf5;
-    padding: 20px;
+    padding: 15px;
     margin: 20px;
 }
 
@@ -72,16 +73,17 @@ h2 {
 
 .tarjetas {
     width: 200px;
-    background: linear-gradient(180deg, rgb(238, 97, 238), rgb(52, 56, 154), rgb(10, 15, 59));
-    border: solid magenta 1px;
+    background: linear-gradient(180deg, rgb(245, 89, 245), rgb(45, 49, 153), rgb(8, 14, 65));
     padding: 20px;
     margin: 20px;
+    border: solid magenta 2px;
     text-align: center;
     border-radius: 15px;
+    opacity: 0.8;
 }
 
 .tarjetas:hover {
-    transform: scale(1.10)
+    transform: scale(1.11)
 }
 
 .tarjetas img {
@@ -104,7 +106,7 @@ h3 {
 }
 
 .Online img {
-    width: 25%;
+    width: 260px;
     margin-left: 70px;
     padding: 10px;
     border-radius: 10%;
@@ -119,9 +121,8 @@ h3 {
     color: #0eedf5;
     margin: 20px;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 10%;
     font-weight: bold;
-
 }
 
 .Online a:hover {
@@ -136,7 +137,6 @@ h3 {
 }
 
 .footer p {
-
     padding: 5px;
 }
 
@@ -148,11 +148,11 @@ h3 {
     }
 
     .Online img {
-        width: 40%;
+        width: 50%;
     }
 
     .Online a {
-        width: 60px;
+        width: 65px;
         font-size: 12px;
         padding: 5px;
         margin: 15px;
