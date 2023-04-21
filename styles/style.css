@@ -196,6 +196,11 @@ h3 {
     .Ver-Serie {
         flex-direction: column;
         gap: 10px;
+        margin: 0px;
+    }
+
+    nav ul a {
+        margin: 5px;
     }
 
     .sinopsis {
