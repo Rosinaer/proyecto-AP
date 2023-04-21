@@ -11,7 +11,7 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: rgb(240, 233, 158);
+    color: rgb(111, 245, 73);
 }
 
 header {
@@ -33,7 +33,7 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 18px;
-    color: #0eedf5;
+    color: rgb(39, 213, 214);
     padding: 5px;
     margin: 10px;
 }
@@ -47,20 +47,31 @@ h1 {
     font-size: 45px;
     padding: 10px;
     margin: 20px;
-    color: #0eedf5;
+    margin-bottom: 50px;
+    color: rgb(39, 213, 214);
 }
 
 h2 {
-
+    color: rgb(115, 25, 62);
     font-size: 25px;
-    color: #0eedf5;
+    color: rgb(39, 213, 214);
     padding: 15px;
     margin: 20px;
 }
 
+.sinopsis {
+    border: solid rgb(39, 213, 214) 1px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(226, 206, 22, 0.199);
+}
+
+
 .sinopsis p {
     padding: 20px;
     margin: 30px;
+    color: rgb(111, 245, 73);
 }
 
 .contenedor-tarjetas {
@@ -73,11 +84,12 @@ h2 {
 
 .tarjetas {
     width: 200px;
-    background: linear-gradient(180deg, rgb(245, 89, 245), rgb(45, 49, 153), rgb(8, 14, 65));
+    background: linear-gradient(180deg, rgb(245, 89, 245), rgb(64, 201, 201), rgb(8, 14, 65));
     padding: 20px;
-    margin: 20px;
+    margin: 30px;
     border: solid magenta 2px;
     text-align: center;
+    font-size: 16px;
     border-radius: 15px;
     opacity: 0.8;
 }
@@ -89,12 +101,15 @@ h2 {
 .tarjetas img {
     width: 100px;
     border-radius: 50%;
+    box-shadow: 4px 2px rgb(112, 45, 133);
+    /*box-shadow: 3px -1px rgb(64, 201, 201);*/
 }
 
 h3 {
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+    color: rgb(250, 247, 107);
 }
 
 .Online {
@@ -103,6 +118,7 @@ h3 {
     padding: 10px;
     justify-content: center;
     align-items: center;
+
 }
 
 .Online img {
@@ -118,7 +134,7 @@ h3 {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
-    color: #0eedf5;
+    color: rgb(39, 213, 214);
     margin: 20px;
     padding: 10px;
     border-radius: 10%;
@@ -132,12 +148,21 @@ h3 {
 .footer {
     padding: 30px;
     margin: 50px;
-    color: #0eedf5;
+    color: rgb(39, 213, 214);
     text-align: center;
 }
 
 .footer p {
     padding: 5px;
+}
+
+.footer a img {
+    width: 80px;
+    margin: 10px;
+}
+
+.footer a :hover {
+    transform: scale(1.11)
 }
 
 @media(max-width: 600px) {
