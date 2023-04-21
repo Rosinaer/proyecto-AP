@@ -7,41 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <title>Proyecto Final Argentina programa</title>
-
 </head>
 
 <body>
-
     <!--aca comienza Encabezado-->
     <header class="encabezado">
-
         <div class="logo">
-
             <img src="imagenes/logo.png" alt="logo imagen de Rick y Morty">
-
         </div>
         <nav class="nav-link">
-
-            <a href="#contenedor-tarjetas">Personajes</a>
-            <a href="https://www.google.com/search?q=rick+and+morty+reparto&rlz=1C1CHBF_esAR1023AR1023&sxsrf=APwXEdcyzs4gFiG4NM4LNcxhFPFfX3Megw%3A1681873896611&ei=6Fs_ZJP6JMjS1sQPx5qxuAg&ved=0ahUKEwiTjqjB_LT-AhVIqZUCHUdNDIcQ4dUDCA8&uact=5&oq=rick+and+morty+reparto&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxCwAxAnOgoIABBHENYEELADOgoIABCKBRCwAxBDOg0IABDkAhDWBBCwAxgBOg8ILhCKBRDIAxCwAxBDGAI6BAgjECc6BAguEAM6CggAEIAEEBQQhwI6BQguEIAEOggIABAWEB4QCkoECEEYAFClB1jbHGD4IGgBcAF4AIABvgGIAdgGkgEDNi4ymAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp"
-                target="_blank">Reparto</a>
-            <a href="#Online" target="_blank">Ver Online</a>
-
+            <ul>
+                <li>
+                    <a href="#contenedor-tarjetas">Personajes</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/search?q=rick+and+morty+reparto&rlz=1C1CHBF_esAR1023AR1023&sxsrf=APwXEdcyzs4gFiG4NM4LNcxhFPFfX3Megw%3A1681873896611&ei=6Fs_ZJP6JMjS1sQPx5qxuAg&ved=0ahUKEwiTjqjB_LT-AhVIqZUCHUdNDIcQ4dUDCA8&uact=5&oq=rick+and+morty+reparto&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxCwAxAnOgoIABBHENYEELADOgoIABCKBRCwAxBDOg0IABDkAhDWBBCwAxgBOg8ILhCKBRDIAxCwAxBDGAI6BAgjECc6BAguEAM6CggAEIAEEBQQhwI6BQguEIAEOggIABAWEB4QCkoECEEYAFClB1jbHGD4IGgBcAF4AIABvgGIAdgGkgEDNi4ymAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp"
+                        target="_blank">Reparto</a>
+                </li>
+                <li>
+                    <a href="#Ver-Serie">Ver Serie</a>
+                </li>
+            </ul>
         </nav>
-
     </header>
 
     <main>
-
+        <h1>Rick and Morty</h1>
         <!-- Comienzo sección de sinopsis -->
-        <section>
-
-            <h1>Rick and Morty</h1>
-
-            <div id="sinopsis" class="sinopsis">
-
+        <section id="sinopsis" class="sinopsis">
+            <div>
+                <img src="https://www.nawpic.com/media/2020/rick-and-morty-nawpic-38.jpg" alt="imagen Rick y Morty">
+            </div>
+            <div>
                 <h2>Sinopsis</h2>
-
                 <p>
                     Rick y Morty (en inglés: Rick and Morty) es una serie de televisión americana de animación para
                     adultos
@@ -51,65 +49,57 @@
                     Morty,
                     quienes pasan el tiempo entre la vida doméstica y los viajes espaciales, temporales e
                     intergalácticos.
-                    Dan Harmon, el co-creador de la serie y Justin Roiland son los encargados de las voces principales
+                    Dan Harmon, el co-creador de la serie y Justin Roiland son los encargados de las voces
+                    principales
                     de
-                    Morty y Rick, la serie también incluye las voces de Chris Parnell, Spencer Grammer y Sarah Chalke.
-                    La serie se originó por un cortometraje rudimentario animado por Roiland para el festival de cine
+                    Morty y Rick, la serie también incluye las voces de Chris Parnell, Spencer Grammer y Sarah
+                    Chalke.
+                    La serie se originó por un cortometraje rudimentario animado por Roiland para el festival de
+                    cine
                     Channel 101 llamado Doc and Mharti, una parodia de los principales protagonistas de Back to the
                     Future.
-                    Cuando la cadena NBC despidió a Harmon en 2013 por discusiones entre él y los ejecutivos de la serie
+                    Cuando la cadena NBC despidió a Harmon en 2013 por discusiones entre él y los ejecutivos de la
+                    serie
                     que
-                    había creado, Community, él y Roiland desarrollaron una serie basada en los personajes ya creados
+                    había creado, Community, él y Roiland desarrollaron una serie basada en los personajes ya
+                    creados
                     por
                     Roiland.
                 </p>
-
             </div>
-
         </section>
-
         <!--Comienzo sección personajes-->
         <section>
-
-            <h2>Personajes</h2>
-
+            <h2 class="titulo-personajes">Personajes</h2>
             <div class="contenedor-tarjetas" id="contenedor-tarjetas"></div>
-
         </section>
-
-        <!-- Comienzo sección Ver Online-->
+        <!-- Comienzo sección Ver Serie-->
         <section>
-
-            <h2>Ver Serie Online</h2>
-
-            <div class="Online" id="Online">
+            <div class="Ver-Serie" id="Ver-Serie">
                 <img src="https://larepublica.cronosmedia.glr.pe/original/2021/06/29/60db3b506a2ebe5be0714669.jpg"
                     alt="logo-HBOmax">
 
                 <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1"
-                    target="_blank">Ver
-                    Online</a>
-
+                    target="_blank">
+                    Ver Serie
+                </a>
             </div>
-
         </section>
     </main>
-
     <!-- Comienzo Footer-->
-    <footer>
-        <div class="footer">
+    <footer class="footer">
+        <div>
             <p>Proyecto de Reñones Rosina</p>
             <p>Profesor Gabriel Alberini</p>
             <p>Argentina Programa</p>
             <p>Marzo 2023</p>
-
-            <a href="https://github.com/Rosinaer"><img src="https://img.icons8.com/color/512/github--v1.png"
-                    alt="logo GitHub"></a>
+        </div>
+        <div>
+            <a href="https://github.com/Rosinaer" target="_blank"><img
+                    src="https://img.icons8.com/color/512/github--v1.png" alt="logo GitHub"></a>
         </div>
     </footer>
-
     <script src="app/app.js"></script>
-
 </body>
 
 </html>
